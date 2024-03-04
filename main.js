@@ -1,10 +1,11 @@
 function eligeHoroscopo() {
-
+    
     let horoscopoElegido = document.getElementById("Horoscopo").value.toLowerCase();
     console.log(horoscopoElegido);
     let imagenHtml = document.getElementById("imagen-horoscopo");
     let textoHtml = document.getElementById("nombre-horoscopo");
     let fechasHtml = document.getElementById("fecha-horoscopo");
+
     switch (horoscopoElegido) {
         case "aries":
             textoHtml.innerHTML = "Aries";
@@ -85,8 +86,6 @@ function eligeHoroscopo() {
                 imagenHtml.innerHTML = "<h1>Elige tu horoscopo</h1>";
                 imagenHtml.style = "display: flex; justify-content: center; align-items: center; color: white; text-shadow: 5px 5px 5px black"
                 break;
-
-
     }
 }
 
