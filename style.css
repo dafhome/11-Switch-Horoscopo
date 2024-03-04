@@ -1,0 +1,16 @@
+.card-img-top{
+    width: 500px;
+    height: 500px;
+}
+
+section{
+    height: 70vh;
+}
+
+#imagen-horoscopo{
+    background-image: url(/images/Horoscopos.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.486);
+}
